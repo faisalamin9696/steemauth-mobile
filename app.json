@@ -16,7 +16,7 @@
     },
     "android": {
       "package": "com.steempro.authenticator",
-      "versionCode": 1,
+      "versionCode": 3,
       "allowBackup": false,
       "adaptiveIcon": {
         "backgroundColor": "#0B2A6B",
@@ -28,7 +28,6 @@
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.VIBRATE",
-        "android.permission.RECORD_AUDIO",
         "android.permission.USE_BIOMETRIC",
         "android.permission.USE_FINGERPRINT"
       ]
@@ -59,7 +58,9 @@
         {
           "faceIDPermission": "Allow SteemAuth to use Face ID to unlock your keys and approve Steem operations."
         }
-      ]
+      ],
+      "./plugins/with-android-mlkit-keep-rules",
+      "./plugins/with-android-remove-unused-permissions"
     ],
     "experiments": {
       "typedRoutes": true,
