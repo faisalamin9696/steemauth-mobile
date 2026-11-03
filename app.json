@@ -16,7 +16,7 @@
     },
     "android": {
       "package": "com.steempro.authenticator",
-      "versionCode": 3,
+      "versionCode": 4,
       "allowBackup": false,
       "adaptiveIcon": {
         "backgroundColor": "#0B2A6B",
@@ -60,7 +60,9 @@
         }
       ],
       "./plugins/with-android-mlkit-keep-rules",
-      "./plugins/with-android-remove-unused-permissions"
+      "./plugins/with-android-remove-unused-permissions",
+      "expo-image",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,

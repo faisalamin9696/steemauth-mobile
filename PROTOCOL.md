@@ -7,7 +7,7 @@
 > never sees plaintext (every envelope is AES + HMAC with the QR key `k`).
 > v1 (relay frames) and v2 (Supabase `sup` payloads) are refused by the
 > version check on both sides. The browser mirror lives in
-> `@steempro/steemauth-qr` (its `docs/protocol.md` is the wire spec; the
+> `@steempro/steemauth-qr` (its `docs/api.md#protocol` is the wire spec; the
 > suites cross-check both implementations on every run).
 
 ## Flow
